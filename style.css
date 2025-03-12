@@ -1,0 +1,608 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ .main1,.main2,.main3,.main4,.main5,.main6,.main7{
+    height: 100%;
+    width: 100%;
+ } 
+                                                          /*this is a first page*/
+ .main1{
+    background-color: rgba(255, 242, 243, 1);
+ }
+                                                            /* navbar start */
+ .main1 nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.main1 nav .nav_in1{
+    height: 60px;
+    width: 30%;
+    font-size: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    padding-right: 5%;
+ } 
+ .main1 nav .nav_in2{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.main1 nav .nav_in2 li{
+    list-style: none;
+}
+.main1 nav .nav_in2 li a{
+    text-decoration: none;
+    color: rgba(115, 115, 115, 1);
+}
+.main1 nav .nav_btn{
+    height:60px;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.main1 nav .nav_btn .login{
+    color:rgba(150, 188, 124, 1);
+    border: none;
+    height: 25px;
+    width: 25%;
+    background-color:transparent;
+    font-size: 0.8rem;
+}
+.main1 nav .nav_btn .btn{
+    height: 35px;
+    width: 25%;
+    color:white ;
+    background-color: rgba(150, 187, 124, 1);
+    border-radius: 5px;
+    border: none;
+    font-size: 0.8rem;
+}
+                                    /* navbar complete */
+                                                    /* 1st page section start */
+
+.main1 .sec1-1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: end;
+    justify-content: right;
+}
+.main1 .sec1-1 .sec1-2{
+    height:300px;
+    width: 35%;
+    align-self: center;
+    margin-right: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main1 .sec1-1 .sec1-2 .welcome{
+    color: rgb(150, 187, 124, 1);
+    font-size: 1rem;
+}
+.main1 .sec1-1 .sec1-3{
+    width: 45%;
+}
+.main1 .sec1-1 .sec1-2 h1{
+    font-size:2.5rem;
+    line-height:3.5rem;
+}
+.main1 .sec1-1 .sec1-2 .our{
+    line-height:1.5rem;
+    width: 60%;
+    color: rgba(115, 115, 115, 1);
+    word-spacing: 2px;
+    font-size:17px;
+}
+.main1 .sec1-1 .sec1-2 .sec1_btn .btn{
+    color: white;
+    background-color: rgb(150, 187, 124, 1);
+    height:45px;
+    width:22%;
+    border: none;
+    border-radius: 7px;
+}
+.main1 .sec1-1 .sec1-2 .sec1_btn .more{
+    height: 45px;
+    width: 25%;
+    border-radius: 7px;
+    background-color: transparent;
+    border: 2px solid rgb(150, 187, 124, 1);
+}
+button{
+    cursor: pointer;
+}
+.main2{
+    height: 100vh;
+}
+.main2 .sec2-1{
+    display: flex;
+    justify-content:center;
+    height: 100vh;
+    align-items: center;
+}
+.main2 .sec2-1 .sec2-2{
+    height:280px ;
+    width:37% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main2 .sec2-1 .sec2-2 .ul_1{
+    background-color:rgba(231, 64, 64, 1);
+    height:8px;
+    width: 15%;
+}
+.main2 .sec2-1 .sec2-2 p{
+    width: 70%;
+    line-height:1.5rem;
+    color: rgba(115, 115, 115, 1);
+    word-spacing: 2px;
+    font-size:16px;
+}
+.main2 .sec2-1 .sec2-2 h1{
+    font-size:2.2rem;
+    line-height:3.5rem;   
+}
+.main2 .sec2-1 .sec2-2 .l_m{
+    text-decoration: none;
+    color:rgb(150, 187, 124, 1) ;
+    font-size: 15px;
+}
+.main2 .sec2-1 .sec2-2 .l_m .l_aero{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px
+}
+.main2 .sec2-1 .sec2-3{
+    height:280px ;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.main2 .sec2-1 .sec2-3 .card1-2{
+    height:280px ;
+    width:240px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:-8px 8px 8px 0px rgba(0, 0, 0, 0.07);
+}
+.main2 .sec2-1 .sec2-3 .card1-1{
+    height:230px ;
+    width:70%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.main2 .sec2-1 .sec2-3 .card1-1 .icn{
+    height: 70px;
+    width: 60px;
+    background-color: rgba(150, 187, 124, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.5rem;
+    border-radius: 8px;
+}
+.main2 .sec2-1 .sec2-3 .card1-1 h1{
+    font-size: 1.2rem;
+}
+.main2 .sec2-1 .sec2-3 .card1-1 p{
+    line-height:1.5rem;
+    color: rgba(115, 115, 115, 1);
+    word-spacing: 2px;
+    font-size:15px;}
+.main2 .sec2-1 .sec2-3 .card1-1 .ul_a{
+    height: 3px;
+    width: 60px;
+    background-color:rgba(231, 64, 64, 1);
+}
+.main3 {
+    display: flex;
+    justify-content:center;
+    height: auto;
+    align-items: center;
+}
+.main3 .sec3-1{
+    margin: 100px 0px 100px 50px;  
+}
+.main3 .sec3-1 img{
+    width: 70%;
+}
+.main3 .sec3-2{
+    height:280px ;
+    width:33% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main3 .sec3-2 .ul_1{
+    background-color:rgba(231, 64, 64, 1);
+    height:8px;
+    width: 15%;
+}
+.main3 .sec3-2 p,.pro{
+    width: 80%;
+    line-height:1.5rem;
+    color: rgba(115, 115, 115, 1);
+    word-spacing: 2px;
+    font-size:16px;
+}
+.main3 .sec3-2 h1{
+    width: 60%;
+    font-size:2.3rem;
+    line-height:3.5rem;   
+}
+.main3 .sec3-2 .l_m{
+    text-decoration: none;
+    color:rgb(150, 187, 124, 1) ;
+    font-size: 15px;
+}
+.main3 .sec3-2 .l_m .l_aero{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px
+}
+.main4,.main5,.main6{
+    display: flex;
+    justify-content: center;
+}
+.main-in{
+    width: 80%;
+    height: auto;
+}
+.main4 .sec4-1,
+.main5 .sec5-1,
+.main6 .sec6-1
+{
+    margin-top: 100px;
+    line-height: 40px;
+}
+.advice{
+    color: rgba(150, 187, 124, 1);
+    font-size:15px;
+}
+.app{
+    font-size:2.6rem;  
+    margin-bottom: 15px; 
+}
+.get{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.pro{
+    width: 500px;
+}
+.main4 .main-in .sec4-2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.main4 .main-in .sec4-2 .card2-1{
+    display: flex;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-1{
+    background-image: url("sale1.png");
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    width:200px;
+}
+.main4 .main-in .sec4-2 .card2-1 .back{
+    background-image:url("sale2.png") ;
+    background-size: cover;
+    background-position: center;
+    height:400px;
+    width:200px;
+}
+
+ .sal{
+    background-color: rgba(231, 64, 64, 1);
+    font-size: 1rem;
+    height:22px;
+    width:45px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    border-radius: 4px;
+    position:relative;
+    left: 20px;
+    top: 20px;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-1 .icns{
+    height: 40px;
+    width:140px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position:relative;
+    top:300px;
+    left:25px;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-1 .icns .ic-n{
+    background-color: white;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 50%;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2{
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+    position: relative;
+    padding-left: 15px;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 h1{
+    font-size: 1.2rem;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 .prob{
+    color: rgba(115, 115, 115, 1);
+    width: 90%;
+    word-spacing: 4px;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 .a_9{
+    background-color: rgba(45, 64, 89, 1);
+    height:25px;
+    width: 60px;
+    text-align: center;
+    align-content: center;
+    font-size:12px;
+    color: white;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    position:absolute;
+    left: 70%;
+    top:20px;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 .a_9 i{
+    color: yellow;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 .dr{
+    color: rgba(189, 189, 189, 1);
+    font-size:1.1rem;
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 .dr span{
+    color: rgba(246, 155, 37, 1);
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 .Lessons{
+    font-size: 13PX;
+    color: rgba(115, 115, 115, 1);
+    height: 40px;
+    width: 290px;
+    display: flex;
+    justify-content: space-around;
+}
+.A{
+    color: rgba(150, 187, 124, 1);    
+}
+.B{
+    color:rgba(231, 124, 64, 1);
+}
+.C{
+    color: rgba(255, 171, 113, 1);
+}
+.main4 .main-in .sec4-2 .card2-1 .sale1-2 button{
+    height: 50px;
+    width: 150px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius:30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius:30px;
+    border: 2px solid rgba(150, 187, 124, 1);
+    color: rgba(150, 187, 124, 1);
+    background-color: white;
+}
+.main5 .main-in .sec5-2{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main5 .main-in .sec5-2 .profile1{
+    height: 300px;
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.main5 .main-in .sec5-2 .profile1 .img1{
+    height: 130px;
+    width: 130px;
+    background-image: url("profile1.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+.main5 .main-in .sec5-2 .profile1 .img2{
+    height: 130px;
+    width: 130px;
+    background-image: url("profile2.png");
+    background-size: cover;
+    border-radius: 50%;
+}
+.main5 .main-in .sec5-2 .profile1 .prob{
+    color: rgba(115, 115, 115, 1);
+    font-size: 15px;
+    text-align: center;
+}
+.main5 .main-in .sec5-2 .profile1 .star{
+    color: rgb(249, 204, 23);
+}
+.main5 .main-in .sec5-2 .profile1 .regina{
+    font-weight: 700;
+}
+.main5 .main-in .sec5-2 .profile1 .desig{
+    font-size: 13.5px;
+    font-weight: 600;
+    color: rgba(115, 115, 115, 1);
+}
+.main6 .main-in .sec6-2 {
+    height: 500px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.main6 .main-in .sec6-2 .julian{
+    height: 340px;
+     width: 220px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+}
+.main6 .main-in .sec6-2 .julian .imag{
+    background-size: cover;
+    background-position: center;
+    height: 60%;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.main6 .main-in .sec6-2 .julian .prof{
+   background-color:white;
+    height: 50%;
+    width: 100%;
+    border-bottom-right-radius: 20px ;
+    border-bottom-left-radius: 20px ;
+    text-align: center;
+    align-content: center;
+    line-height: 35px;
+    box-shadow:-8px 8px 8px 0px rgba(0, 0, 0, 0.07);
+}
+.main6 .main-in .sec6-2 .julian .icn,.icn{
+    color: rgba(150, 187, 124, 1);
+    font-size: 1.3rem;
+    word-spacing: 13px;
+}
+.main6 .main-in .sec6-2 .julian .prof .jul{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.main6 .main-in .sec6-2 .julian .prof .pr{
+    color: rgba(115, 115, 115, 1);
+    font-size: 1rem;
+}
+.main6 .main-in .sec6-2 .julian .imag1{
+    background-image: url("user-cover-1.png");
+}
+.main6 .main-in .sec6-2 .julian .imag2{
+    background-image: url("user-cover-2.png");
+}
+.main6 .main-in .sec6-2 .julian .imag3{
+    background-image: url("user-cover-3.png");
+}
+.main6 .main-in .sec6-2 .julian .imag4{
+    background-image: url("user-cover-4.png");
+}
+.main7{
+    background-color: rgba(255, 242, 243, 1);
+    width: 100%;
+    height: 100vh;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 80px;
+
+}
+.main7 .sec7-1{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+}
+.main7 .sec7-2 {
+    background-color: rgb(115, 156, 156);
+    height: 45px;
+    width:600px;
+    display: flex;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+    border-top-left-radius:6px ;
+    border-bottom-left-radius:6px ;
+}
+.main7 .sec7-2 button{
+    background-color: rgba(150, 187, 124, 1);
+    color: white;
+    width: 90px;
+    height: 100%;
+    border: none;
+    border-top-right-radius:6px ;
+    border-bottom-right-radius:6px ;
+}
+.main7 .sec7-2 input{
+    width: 100%;
+    height: 100%;
+    border:1px solid rgb(180, 180, 180);
+    padding-left: 15px;
+    font-size: 15px;
+    border-top-left-radius:6px ;
+    border-bottom-left-radius:6px ;
+}
+footer{
+    background-color:white;
+    width: 100%;
+    height:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    align-items: center;
+
+}
+footer .ft table tr td,footer .last p{
+    color: rgba(115, 115, 115, 1);
+    font-weight: 700;
+    font-size: 13px;
+}
+footer .ft{
+    height: 200px;
+    width: 80%;
+}
+table th,td{
+    width:220px;
+    height: 30px;
+    text-align: left;   
+}
+footer .last{
+    height: 70px;
+    width: 100%;
+    background-color:rgba(250, 250, 250, 1);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+footer .last div{
+    width: 100px;
+}
+pre{
+    display: inline;
+}
+.pra{
+    line-height:1.5rem;
+    color: rgba(115, 115, 115, 1);
+    word-spacing: 2px;
+    font-size:16px;
+}
